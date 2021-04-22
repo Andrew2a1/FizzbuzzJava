@@ -8,4 +8,10 @@ class FizzBuzzTest {
         FizzBuzz fizzbuzz = new FizzBuzz();
         assertEquals("1", fizzbuzz.generateTo(1));
     }
+
+    @Test
+    void FizzBuzzForTwoIs12() {
+        FizzBuzz fizzbuzz = new FizzBuzz();
+        assertEquals("1 2", fizzbuzz.generateTo(1));
+    }
 }
